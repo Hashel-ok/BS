@@ -1,0 +1,244 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
+
+* {
+  font-family: 'DM Sans', sans-serif;
+  --primarycolor: #4318FF;
+  --primarytextcolor:#2B3674;
+  --astrikcolor:#FF1818;
+  --secondarytextcolor: #949DB9;
+
+}
+
+.form_Sect{
+  display: flex;
+  gap: 30px ;
+}
+.content_Sec{
+  border-radius: 1.3rem;
+}
+
+.form_Sect h4 {
+  color:var(--primarytextcolor);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.upload_Sec {
+  display: none;
+}
+.upload_icons {
+  color: var(--primarycolor);
+  font-size: 18px;
+}
+.upload_icons h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.upload_icons h6 {
+  color: #8F9BBA;
+  font-size: 12px;
+  font-weight: 500;
+}
+.upload_bg {
+  background: #fafcfe;
+  border: dashed 1px #b2bad0;
+  border-radius: 13px;
+}
+
+.content_Sec .form-select {
+  border-radius: 16px;
+  color: var(--primarytextcolor) ;
+  font-size: 14px;
+  font-weight: 400;
+  height: 50px;
+
+  
+}
+
+.content_Sec option {
+  color: black;
+}
+.form_heading {
+  display: flex;
+  gap: 5px;
+}
+.asterisk {
+  font-size: 8px;
+  color: var(--astrikcolor);
+  padding-top: 2px;
+}
+.form_heading h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color:var(--primarytextcolor);
+  line-height: 14px;
+}
+.content_Sec .form-control{
+  border-radius: 16px;
+padding: 12px;
+color: var(--primarytextcolor);
+padding-left: 15px;
+
+
+}
+
+.form-control:focus{
+
+  outline:0px !important; 
+  box-shadow: none !important;
+  border-color: var(--primarycolor) !important;
+
+}
+.form-select:focus{
+
+  outline:0px !important; 
+  box-shadow: none !important;
+  border-color: var(--primarycolor) !important;
+
+}
+.date_Sec.form-control{
+  color: #6c757d !important;
+  
+}
+
+
+.form-check-label{
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--primarytextcolor);
+  line-height: 20px;
+} 
+
+.form-check-input:focus{
+  box-shadow: none !important;
+
+}
+.form-check-input:checked {
+  background-color: var(--primarycolor) !important;
+  border-color: var(--primarycolor) !important;
+}
+.form-range::-webkit-slider-thumb{
+  background-color: var(--primarycolor) !important;
+
+}
+
+
+
+ .alert_Sec{
+  background-color: #FDF4D1;
+  border: 1px all #FBE7A5;
+  border-radius: 12px;
+  
+}
+.alert_Sec h5{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  color:  #624E17;
+  
+}
+.alert_Sec p{
+  /* text-align: justify; */
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color:  #624E17;
+ margin: 0;
+}
+.range_Sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+ 
+}
+.range_Sec .form-control{
+    
+    width: 90px;
+}
+
+
+
+.form-range{
+  color: var(--primarycolor) !important;
+}
+
+input[type="range"]:focus::-webkit-slider-thumb {
+  box-shadow: none !important;
+}
+
+input[type="range"]:focus::-moz-range-thumb {
+  box-shadow: none !important;
+}
+
+input[type="range"]:focus::-ms-thumb {
+  box-shadow: none !important;
+}
+
+
+
+.color_pick{
+  width: 100%;
+
+}
+.form-floating>label {
+    
+  left:20px !important;
+}
+.terms_condi_Sec>label{
+
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+color: var(--primarytextcolor);
+margin-left: 5px;
+
+}
+.template_Sec{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bottom_butns>button{
+  
+  border-radius: 16px;
+  background-color: var(--primarycolor);
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 160px;
+  height: 58px;
+  
+}
+.c_btn{
+  background-color: #FAF9FF !important;
+  color: rgba(43, 54, 116, 1)!important;
+  border: none !important;
+}
+
+.bottom_butns>button:focus{
+  box-shadow: none !important;
+}
+.btn-primary:hover {
+  background-color: none !important;
+}
+.btn-primary:active {
+  background-color: none !important;
+}
+
+
+.bottom_sec {
+  border-radius: 22px;
+}
+@media screen and (max-width: 410px)
+{
+  .template_Sec{
+    flex-direction: column;
+  align-items: flex-start;
+    
+  }
+}
+

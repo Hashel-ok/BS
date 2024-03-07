@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="bcss.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <title>Bootstrap</title>
+</head>
+<body>
+  <div class="layout bg-light">
+  <div class="container-fluid">
+   <div class="container p-4">
+
+     <div class="row form_Sect">
+      <div class="content_Sec col-lg p-4  bg-white">
+        
+        <header>
+          <h4>Basic Details</h4>  
+        </header>
+        
+        <!-- upload section -->
+        <div class=" mb-3 mt-3 d-flex flex-column align-items-center pt-3 upload_bg" >
+         
+          <input class="upload_Sec" type="file" id="form" multiple>
+          <label for="form" class="upload_icons"><i class="fa-solid fa-upload"></i></label>
+          <label for="form" class="upload_icons"><h5>Upload Image</h5></label>
+         <label for="form" class="upload_icons"><h6>PNG, JPG files are allowed</h6></label>
+        </div>
+        
+        <!-- name section -->
+        <div class="row">
+          <div class=" col-sm-3 pt-4 ">
+            <label class="form_heading" for="form-select1"><h6>Salutation</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+            <select class="form-select" aria-label="Default select example" id="form-select1">
+              <option selected>Select</option>
+              <option value="1">Mr</option>
+              <option value="2">Mrs</option>
+              <option value="3">Ms</option>
+            </select>
+          </div>
+
+          <div class="col-sm pt-4">
+            <label class="form_heading" for="first_name"><h6>First name</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="first_name">
+            </div>
+          </div>
+          <div class=" col-sm pt-4">
+            <label class="form_heading" for="last_name"><h6>Last name</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="last_name">
+            </div>
+          </div>
+      </div>
+
+<!-- Email and contact section -->
+     <div class="row">
+      <div class="col-sm-6  pt-4">
+        <label class="form_heading" for="email"><h6>Email Address</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+        <input type="email" class="form-control" id="email" placeholder="mail@simple.com" aria-describedby="emailHelp">
+      </div>
+ <div class="col-sm-6  pt-4">
+  <label class="form_heading" for="Mob_no"><h6>Mobile Number</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+        <input type="email" class="form-control" id="Mob_no" placeholder="enter mobile number" aria-describedby="emailHelp">
+ </div>
+
+    </div>
+
+
+<!-- date of birth and gender -->
+
+    <div class="row">
+      <div class="date_sec col-sm-6  pt-4">
+
+        <label class="form_heading" for="dateofbirth"><h6>Date Of Birth</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+        <input type="date" class="form-control" id="dateofbirth" placeholder="select date of birth" aria-describedby="emailHelp">
+      </div>
+      
+      <div class="gender_sec col-sm-6 pt-4">
+
+        <label class="form_heading" for="inlineRadio1"><h6>Gender</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+        <div class="form-check form-check-inline pt-2">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">Male</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Female</label>
+        </div>
+      </div>
+     </div>
+
+     <!-- Adresss -->
+     <div class="row">
+
+      <div class="col pt-4">
+        <label class="form_heading" for="address"><h6>Address</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+        <div class="col">
+        <input type="text" class="form-control" placeholder="enter address" aria-label="Last name" id="address">
+      </div>
+      </div>
+     </div>
+<!-- country and state -->
+<div class="row">
+  <div class="col-sm-6 pt-4">
+    <label class="form_heading" for="country"><h6>Country</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+            <select class="form-select" aria-label="Default select example" id="country">
+              <option selected>Select country</option>
+              <option value="1">America</option>
+              <option value="2">India</option>
+              <option value="3">Newzeland</option>
+            </select>
+
+</div>
+<div class="col-sm-6 pt-4">
+  <label class="form_heading" for="state"><h6>State</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+          <select class="form-select" aria-label="Default select example" id="state">
+            <option selected>Select state</option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+          </select>
+
+</div>
+
+    </div>
+<!-- City and Pincode -->
+    <div class="row">
+      <div class="col-sm-6  pt-4">
+        <label class="form_heading" for="city"><h6>City</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+          <input type="text" class="form-control" placeholder="enter city" aria-label="city" id="city">
+        
+      </div>
+      <div class="col-sm-6 pt-4">
+        <label class="form_heading" for="Pincode"><h6>Pin/Zip</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+          <input type="text" class="form-control" placeholder="enter zip/pin" aria-label="zip/pin" id="Pincode">
+        
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- 2nd page -->
+  <div class="content_Sec col-lg p-4 bg-white ">
+    <header><h4>Advanced Details</h4></header>
+    <div class="row mt-3 mb-2">
+    <div class=" alert_Sec alert alert-warning mb-0" role="alert">
+      <h5>Sample warning messages - alert </h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum felis. Aliquam erat volutpat. Donec faucibus mauris vel nibh sodales feugiat. Donec suscipit felis vitae orci porttitor congue.</p>
+    </div>
+  </div>
+<!-- Height weight -->
+
+    <div class="row">
+      <div class=" col-sm-6 pt-4">
+        <label class="form_heading" for="customRange1"><h6>Height</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+        <div class="range_Sec ">
+          <input type="range" class="form-range" id="customRange1">
+          <input type="text" class="form-control" placeholder="" aria-label="" value="160 cm">
+        </div>
+        
+      </div>
+      <div class="col-sm pt-4">
+        <label class="form_heading" for="customRange2"><h6>Weight</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+        <div class="range_Sec ">
+          <input type="range" class="form-range" id="customRange2">
+          <input type="text" class="form-control " placeholder="" aria-label="" value="68 kg">
+
+        </div>
+        
+      </div>
+
+    </div>
+
+<!-- colorpick and template -->
+
+    <div class="row">
+      <div class="col-12 col-md-4 col-lg-12 col-xl-4 pt-4">
+        <label class="form_heading" for="exampleColorInput"><h6>Choose color</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+<input type="color" class="form-control form-control-color rounded-lg mw-100" id="exampleColorInput" value="#CB5D9F" title="Choose your color">
+
+    </div>
+    <div class="col-12  col-md-8  col-lg-12 col-xl-8 pt-4">
+      <label class="form_heading" for=""><h6>Choose template</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+     <div class="template_Sec pt-3  ">
+      <div class="form-check form-check-inline m-0">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">Template 1</label>
+      </div>
+      <div class="form-check form-check-inline m-0 ">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">Template 2</label>
+      </div>
+      <div class="form-check form-check-inline m-0">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">Template 3</label>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col pt-4">
+        <label class="form_heading" for="qualification"><h6>Qualifications</h6></label>
+        <div class="col">
+        <input type="text" class="form-control" placeholder="enter qualification" aria-label="qualification" id="qualification">
+      </div>
+    </div>
+      </div>
+    
+      <div class="row pt-4">
+        <label class="form_heading" for="textarea"><h6>About Your Self</h6><i class="fa-solid fa-asterisk asterisk"></i></label>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="enterhere" id="textarea" style="height: 190px"></textarea >
+         
+        </div>
+    </div>
+<!-- Terms and condition -->
+    <div class="row">
+      <div class="col pt-3 terms_condi_Sec">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox" value="option1">
+        <label  for="inlineCheckbox">I Accept Terms & Conditions</label>
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+
+  <div class="bottom_sec row bg-white p-4 mt-4 ">
+   
+
+      <div class="bottom_butns d-flex gap-2 flex-row-reverse">
+        <button class="btn-primary" type="button">Save Changes</button>
+        <button class=" c_btn btn-primary" type="button">Cancel</button>
+        
+      </div>
+
+    
+  </div>
+
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
